@@ -1,7 +1,11 @@
-public class App {
+import java.util.*;
+public class z1{
     public static void main(String[] args) {
-
-        System.out.println("Hello World!");
+        Scanner s = new Scanner(System.in);
+        System.out.println("Vvedite chislo");
+        int a = s.nextInt();
+        a %= 10;
+        System.out.println(a);
 
     }
 }
