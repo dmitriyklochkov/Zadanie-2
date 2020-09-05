@@ -1,0 +1,1 @@
+import java.util.*;public class z3{    public static void main(String[] args) {        Scanner s = new Scanner(System.in);        System.out.println("¬ведите целое число");        int a = s.nextInt();            if (a > 0) { a+=1;}        System.out.println(a);       // PrintStream printStream = new PrintStream(System.out, true, "cp866");    }}
