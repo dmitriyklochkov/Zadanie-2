@@ -5,8 +5,8 @@ public class z7 {
         System.out.println("Введите код города");
         int a = s.nextInt();
         String Gorod = null;
-        Double Stoimosty = 0.0;
-        Double t = 10.0;
+        double Stoimosty = 0.0;
+        double t = 10.0;
         if (a == 905) {
             Gorod = "Москва.";
             Stoimosty = t * 4.15;
