@@ -1,12 +1,12 @@
 import java.util.*;
-public class z3 {
+
+public class Task1 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        System.out.println("¬ведите целое число");
+        System.out.println("Vvedite chislo");
         int a = s.nextInt();
-        if (a > 0) {
-            a += 1;
-        }
+        a %= 10;
         System.out.println(a);
+
     }
 }

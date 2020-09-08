@@ -1,12 +1,13 @@
 import java.util.*;
-public class z4 {
+
+public class Task3 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        System.out.println("Ââåäèòå öåëîå ÷èñëî");
+        System.out.println("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸Ð»Ð¾");
         int a = s.nextInt();
-        if (a > 0)  ++a;
-        if (a < 0)  a-=2;
-       if (a==0) a = 10;
+        if (a > 0) {
+            a += 1;
+        }
         System.out.println(a);
     }
 }
