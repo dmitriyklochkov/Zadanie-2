@@ -2,15 +2,17 @@ import java.util.*;
 
 public class Task9 {
     public static void main(String[] args) {
-        int[] m = {15, 10, 51, -6, -5, 3, -10, -34, 0, 32, 56, -12, 24, -52};
-        int[] n = new int[14];
+        int[] arrays1 = {15, 10, 51, -6, -5, 3, -10, -34, 0, 32, 56, -12, 24, -52};
+
+        int[] arrays2 = new int[arrays1.length];
+
         int k = 0;
-        for (int i = 13; i >= 0; i--) {
-            n[k] = m[i];
+        for (int i = arrays1.length - 1; i >= 0; i--) {
+            arrays2[k] = arrays1[i];
             k++;
         }
 
-        String reverseString = Arrays.toString(n);
+        String reverseString = Arrays.toString(arrays2);
         System.out.println(reverseString);
     }
 }
