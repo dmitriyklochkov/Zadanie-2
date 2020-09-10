@@ -5,10 +5,10 @@ public class Task6 {
         Scanner s = new Scanner(System.in);
         System.out.println("Введите целое число");
         int a = s.nextInt();
-        int b = a % 2;
+        int remains = a % 2;
         String parity;
         String sign = null;
-        if (b == 0) {
+        if (remains == 0) {
             parity = " четное";
         } else {
             parity = " нечетное";
