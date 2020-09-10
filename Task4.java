@@ -4,17 +4,17 @@ public class Task4 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Введите целое число");
-        int a = s.nextInt();
-        if (a > 0) {
-            ++a;
+        int number = s.nextInt();
+        if (number > 0) {
+            ++number;
         } else {
-            if (a < 0) {
-                a -= 2;
+            if (number < 0) {
+                number -= 2;
             } else {
-                a = 10;
+                number = 10;
             }
         }
 
-        System.out.println(a);
+        System.out.println(number);
     }
 }
